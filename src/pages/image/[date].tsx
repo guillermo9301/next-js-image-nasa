@@ -17,6 +17,7 @@ const ImageDate = ({ image }: ImageDateProps) => {
             <h2>{image.title}</h2>
             <img src={image.url} alt={image.title}/>
             <h3>{image.date}</h3>
+            <h4>{image.copyright}</h4>
             <p>{image.explanation}</p>
         </div>
     )

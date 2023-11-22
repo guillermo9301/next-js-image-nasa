@@ -4,4 +4,5 @@ export type Image = {
     hdurl?: string;
     title?: string;
     url: string;
+    copyright?: string;
   };
